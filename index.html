@@ -5,43 +5,70 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<title>Hayden Guthrie</title>
-		<meta name="description" content="Modern effects and styles for off-canvas navigation with CSS transitions and SVG animations using Snap.svg" />
-		<meta name="keywords" content="sidebar, off-canvas, menu, navigation, effect, inspiration, css transition, SVG, morphing, animation" />
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
 		<meta name="author" content="Codrops" />
-		<link rel="icon" type="image" href="../img/" />
-		<link rel="shortcut icon" href="/favicon.ico" type="img/favicon.ico">
-		<link rel="icon" href="/favicon.ico" type="img/favicon.ico">
+		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/menu_topside.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="container">
-			<div class="menu-wrap">
-				<nav class="menu-top">
-					<div class="profile"><img src="img/user4.png" alt="Hayden Guthrie"/><span>Hayden Guthrie</span></div>
-					<div class="icon-list">
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-bell-o"></i></a>
-						<a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-fw fa-envelope-o"></i></a>
-						<a href="https://twitter.com/"><i class="fa fa-fw fa-comment-o"></i></a>
-					</div>
-				</nav>
-				<nav class="menu-side">
-					<a href="#">About me</a>
-					<a href="#">Projects</a>
-					<a href="#">Contact</a>
-				</nav>
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h1 class="main-title">Hayden <span class="thin">Guthrie</span></h1>
+				</div>
+				<div class="codrops-header">
+					<h1>Portfolio for Hayden Guthrie <span>Get to know me better</span></h1>
+					<nav class="codrops-demos">
+						<a class="current-demo" href="index.html">Home</a>
+						<a href="index2.html">About</a>
+						<a href="index3.html">Projects</a>
+						<a href="index4.html">Contact</a>
+					</nav>
+				</div>
 			</div>
-			<button class="menu-button" id="open-button">Open Menu</button>
-			<div class="content-wrap">
-				<div class="content">
-					<header class="codrops-header">
-					<h1>Hayden Guthrie <span>"Do or do not. There is no try." -Yoda</span></h1>
-					</header>
-		  <article id="article1"> 
-                    <h2>Know Me Better</h2>
+			<!-- Related demos -->
+			<section class="related">
+				<div class="carousel">
+				    <div class="carousel-inner">
+				        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+				        <div class="carousel-item">
+				            <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+				        </div>
+				        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+				        <div class="carousel-item">
+				            <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+				        </div>
+				        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+				        <div class="carousel-item">
+				            <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+				        </div>
+				        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+				        <label for="carousel-2" class="carousel-control next control-1">›</label>
+				        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+				        <label for="carousel-3" class="carousel-control next control-2">›</label>
+				        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+				        <label for="carousel-1" class="carousel-control next control-3">›</label>
+				        <ol class="carousel-indicators">
+				            <li>
+				                <label for="carousel-1" class="carousel-bullet">•</label>
+				            </li>
+				            <li>
+				                <label for="carousel-2" class="carousel-bullet">•</label>
+				            </li>
+				            <li>
+				                <label for="carousel-3" class="carousel-bullet">•</label>
+				            </li>
+				        </ol>
+				    </div>
+				</div>
+
+			<article id="article1"> 
+                <h2>Know Me Better</h2>
 
                     <div class="articleBody clear">
                     
@@ -76,30 +103,17 @@
                         </figure>
                         
                         <p>So you what to contact me. </p>
-                        <p> There are many ways to contact me. The best way is to email me> My email is seehaydeng@gmail.com. The is also my twitter, github, and instagram. </p>
+                        <p> There are many ways to contact me. The best way is to email me. My email is seehaydeng@gmail.com. The is also my twitter, github, and instagram. </p>
                     </div>
                 </article>
+			</section>
+			 <embed src="audio/nbn.mp3" width="340" height="65" autostart="true" loop="false"></embed>
 
-                </section>
-
-        <embed src="audio/nbn.mp3" width="340" height="65" autostart="true" loop="false">
-        </embed>
-
-                <footer>
-
-           <div class="line"></div>           
-           
-           <a href="#" class="up">Go UP</a>
-           <a href="http://i.telegraph.co.uk/multimedia/archive/02458/bacon_2458261b.jpg" class="by">Click for Bacon</a>
-           
-
-        		</footer>
-			</div>
-		</div><!-- /content-wrap -->
-	</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+			<p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a></p>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
 	</body>
 </html>
