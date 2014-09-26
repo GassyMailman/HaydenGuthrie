@@ -377,3 +377,7 @@ article .line{
 footer .line{
 	margin:2em 0;
 }
+
+nav ul li{
+	display:inline;
+}
